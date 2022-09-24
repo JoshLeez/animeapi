@@ -1,2 +1,1 @@
-# movieapi
-List of movie website that used TMDB API
+This was created for education purpose only and non profit project.
