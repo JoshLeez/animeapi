@@ -1,0 +1,79 @@
+*{
+  
+  color:white;
+}
+
+body{
+  background-color: #111;
+  box-sizing: border-box;
+}
+
+.featured{
+  background-image: url('https://pbs.twimg.com/media/EVP0f8iUwAIjf4w?format=jpg&name=4096x4096');
+  height:100%;
+  background-size: cover;
+  background-position: 50%;
+  font-family:sans-serif;
+ 
+  
+}
+.featured-title{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom:1em;
+  letter-spacing: 3px;
+}
+
+.featured-content{
+  padding:1em;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-text{
+  font-size: 16px;
+  text-align: justify;
+  -webkit-line-clamp: 12 ;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
+  display: -webkit-box;
+
+}
+.flextyle{
+  display:flex;
+  margin:0;
+  padding:0;
+  justify-content: center;
+
+}
+
+
+.featured-horizontal{
+  background: linear-gradient(90deg,#111 30%,transparent 70%);
+}
+.featured-vertical{
+  background: linear-gradient(0deg,#111 10%,transparent 90%);
+}
+
+.details-button{
+ 
+  padding:2em;
+  justify-content: center;
+  text-align: center;
+  display:flex;
+
+}
+.details{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+  border-radius: 19px;
+  background-color: rgb(252, 96, 39);
+  padding:13px;
+  transition: .3s ease-in-out;
+}
+
+.details:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
