@@ -12,7 +12,11 @@ function Upcoming() {
   const loadData = async() =>{
       const anime = await fetch(`https://api.jikan.moe/v4/seasons/upcoming`);
       const value = await anime.json()
-      setData(value.data)
+       if (anime.ok) {
+        setTimeout(() => {
+          return    setData(value.data);
+        }, 3000);
+      }
   }
 
   useEffect(() =>{
