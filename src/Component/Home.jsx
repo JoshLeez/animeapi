@@ -50,7 +50,7 @@ function Home() {
                 do whatever it takes to slay the demons and protect the remnants
                 of his beloved sister's humanity.
                 <div className="details-button">
-                <Link to={`/details/${data.mal_id}`} state={{ data : data }} className="details" style={{textDecoration:'none'}}>Details</Link>
+                <Link to={`/details/${datas.type}/${data.mal_id}`} state={{ data : data }} className="details" style={{textDecoration:'none'}}>Details</Link>
                   </div>
               </span>
             </div> 
