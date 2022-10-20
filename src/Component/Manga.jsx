@@ -15,7 +15,7 @@ function Manga() {
       if (anime.ok) {
         setTimeout(() => {
           return    setData(value.data);
-        }, 3000);
+        }, 4000);
       }
   }
 
